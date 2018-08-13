@@ -27,7 +27,7 @@ source ../../scripts/adi_ip_alt.tcl
 
 ad_ip_create ad_ip_jesd204_tpl_dac {ADI JESD204 Transport DAC Layer} p_ad_ip_jesd204_tpl_dac_elab
 ad_ip_files ad_ip_jesd204_tpl_dac [list \
-  $ad_hdl_dir/library/altera/common/ad_mul.v \
+  $ad_hdl_dir/library/intel/common/ad_mul.v \
   $ad_hdl_dir/library/common/ad_dds_sine.v \
   $ad_hdl_dir/library/common/ad_dds_cordic_pipe.v \
   $ad_hdl_dir/library/common/ad_dds_sine_cordic.v \
@@ -48,10 +48,10 @@ ad_ip_files ad_ip_jesd204_tpl_dac [list \
   $ad_hdl_dir/library/jesd204/ad_ip_jesd204_tpl_dac/ad_ip_jesd204_tpl_dac_framer.v \
   $ad_hdl_dir/library/jesd204/ad_ip_jesd204_tpl_dac/ad_ip_jesd204_tpl_dac_regmap.v \
   \
-  $ad_hdl_dir/library/altera/common/up_xfer_cntrl_constr.sdc \
-  $ad_hdl_dir/library/altera/common/up_xfer_status_constr.sdc \
-  $ad_hdl_dir/library/altera/common/up_clock_mon_constr.sdc \
-  $ad_hdl_dir/library/altera/common/up_rst_constr.sdc \
+  $ad_hdl_dir/library/intel/common/up_xfer_cntrl_constr.sdc \
+  $ad_hdl_dir/library/intel/common/up_xfer_status_constr.sdc \
+  $ad_hdl_dir/library/intel/common/up_clock_mon_constr.sdc \
+  $ad_hdl_dir/library/intel/common/up_rst_constr.sdc \
 ]
 
 # parameters

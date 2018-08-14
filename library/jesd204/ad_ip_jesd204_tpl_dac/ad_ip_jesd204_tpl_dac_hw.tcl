@@ -23,7 +23,7 @@
 
 package require qsys
 source ../../scripts/adi_env.tcl
-source ../../scripts/adi_ip_alt.tcl
+source ../../scripts/adi_ip_intel.tcl
 
 ad_ip_create ad_ip_jesd204_tpl_dac {ADI JESD204 Transport DAC Layer} p_ad_ip_jesd204_tpl_dac_elab
 ad_ip_files ad_ip_jesd204_tpl_dac [list \

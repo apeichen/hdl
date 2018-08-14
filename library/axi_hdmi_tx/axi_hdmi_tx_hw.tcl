@@ -106,6 +106,6 @@ add_interface_port vdma_if vdma_ready ready Output 1
 
 # frame sync
 
-ad_alt_intf signal  vdma_fs       output  1
-ad_alt_intf signal  vdma_fs_ret   input   1
+ad_interface signal  vdma_fs       output  1
+ad_interface signal  vdma_fs_ret   input   1
 
